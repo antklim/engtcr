@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+	android:stretchColumns="*"
+  	android:padding="10dip"
+  	android:orientation="vertical">
+
+	<TableRow>
+		<Button android:text="@string/btwrdlst" 
+			android:id="@+id/btwrdlst" 
+		    android:textStyle="bold"
+      		android:layout_span="2">
+		</Button>
+	</TableRow>
+	<TableRow>
+		<Button android:text="@string/btdctbeg" 
+			android:id="@+id/btdctbeg" 
+		    android:textStyle="bold"
+      		android:layout_span="2">
+		</Button>
+	</TableRow>
+
+
+</TableLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, EngTcr!</string>
+    <string name="app_name">English Teacher</string>
+	<string name="tabengwrb">Глаголы</string>
+	<string name="tabengdct">Словарь</string>
+	<string name="btwrblst">Список глаголов</string>
+	<string name="btwrbbeg">Начать тест</string>
+	<string name="btwrdlst">Словарь</string>
+	<string name="btdctbeg">Начать тест</string>
+	<string name="txnowrbs">Список глаголов пуст</string>
+	<string name="txnowrds">Словарь пуст</string>
+	<string name="mnaddwrb">Добавить глагол</string>
+	<string name="mnloadwb">Загрузить глаголы</string>
+	<string name="mnaddwrd">Добавить слово</string>
+	<string name="mnloadwd">Загрузить слова</string>
+	<string name="mnedtwrb">Редактировать</string>
+	<string name="mndelwrb">Удалить</string>
+	<string name="mnedtwrd">Редактировать</string>
+	<string name="mndelwrd">Удалить</string>
+	<string name="lbinfntv">Инфинитив:</string>
+	<string name="lbsmppst">2-я форма:</string>
+	<string name="lbpstprt">3-я форма:</string>
+	<string name="btsavwrb">Сохранить</string>
+	<string name="btcnswrb">Отменить</string>
+	<string name="lbwrbtrl">Перевод:</string>
+	<string name="btwblsbk">Назад</string>
+	<string name="btwdlsbk">Назад</string>
+	<string name="lbdictwd">Слово:</string>
+	<string name="lbwrdtrn">Перевод:</string>
+	<string name="btsavwrd">Сохранить</string>
+	<string name="btcnswrd">Отменить</string>
+	<string name="lbinftst">Инфинитив:</string>
+	<string name="lbsmptst">2-я форма:</string>
+	<string name="lbpsttst">3-я форма:</string>
+	<string name="lbwrbtst">Перевод:</string>
+	<string name="btwrbnxt">Проверить</string>
+	<string name="lbwrbcnt">Кол-во глаголов:</string>
+	<string name="rbwrbwrb">Анг-Рус</string>
+	<string name="rbwrbtrl">Рус-Анг</string>
+	<string name="btwrbstr">Старт</string>
+	<string name="btbtstcn">Отменить</string>
+	<string name="btwrbcnc">Стоп</string>
+
+	<string name="lbwrdcnt">Кол-во слов:</string>
+	<string name="rbwrdwrd">Анг-Рус</string>
+	<string name="rbwrdtrl">Рус-Анг</string>
+	<string name="btwrdstr">Старт</string>
+	<string name="btdtstcn">Отменить</string>
+	<string name="lbdctwrd">Слово:</string>
+	<string name="lbwrdtrl">Перевод:</string>
+	<string name="btwrdnxt">Проверить</string>
+	<string name="btwrdcnc">Стоп</string>
+</resources>

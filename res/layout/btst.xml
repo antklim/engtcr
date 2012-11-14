@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:stretchColumns="*"
+	android:padding="10dip"
+	android:orientation="vertical">
+						
+	<TableRow android:paddingBottom="5dip">
+		<TextView android:text="@string/lbinftst" 
+			android:id="@+id/lbinfntv" 
+			android:paddingRight="10dip"
+			android:paddingTop="15dip"
+			android:textStyle="bold" 
+			android:gravity="right">
+		</TextView>
+		<EditText android:id="@+id/ininftst" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:ellipsize="none" 
+			android:maxLength="15" 
+			android:singleLine="true" 
+			android:width="150dip">
+		</EditText>
+	</TableRow>
+	<TableRow android:paddingBottom="5dip">
+		<TextView android:text="@string/lbsmptst" 
+			android:id="@+id/lbsmppst" 
+			android:paddingRight="10dip"
+			android:paddingTop="15dip"
+			android:textStyle="bold" 
+			android:gravity="right">
+		</TextView>
+		<EditText android:id="@+id/insmptst" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:maxLength="100">
+		</EditText>
+	</TableRow>
+	<TableRow android:paddingBottom="5dip">
+	<TextView android:text="@string/lbpsttst" 
+		android:id="@+id/lbpstprt" 
+			android:paddingRight="10dip"
+			android:paddingTop="15dip"
+			android:textStyle="bold" 
+			android:gravity="right">
+		</TextView>
+		<EditText android:id="@+id/inpsttst"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:maxLength="100">
+		</EditText>
+	</TableRow>
+	<TableRow android:paddingBottom="5dip">
+		<TextView android:text="@string/lbwrbtst" 
+			android:id="@+id/lbwrbtrl" 
+			android:paddingRight="10dip"
+			android:paddingTop="15dip"
+			android:textStyle="bold" 
+			android:gravity="right">
+		</TextView>
+		<EditText android:id="@+id/inwrbtst"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:maxLength="100">
+		</EditText>
+	</TableRow>
+									
+	<TableRow>
+		<TextView android:text="" 
+			android:id="@+id/lbwrbnxt" 
+			android:paddingRight="10dip"
+			android:paddingTop="15dip"
+			android:textStyle="bold" 
+			android:gravity="right">
+		</TextView>
+		<Button android:text="@string/btwrbnxt" 
+			android:id="@+id/btwrbnxt" 
+			android:textStyle="bold"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"/>
+	</TableRow>
+
+	<TableRow>
+		<TextView android:text="" 
+			android:id="@+id/lbwrbcnc" 
+			android:paddingRight="10dip"
+			android:paddingTop="15dip"
+			android:textStyle="bold" 
+			android:gravity="right">
+		</TextView>
+		<Button android:text="@string/btwrbcnc" 
+			android:id="@+id/btwrbcnc" 
+			android:textStyle="bold"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"/>
+	</TableRow>
+</TableLayout>

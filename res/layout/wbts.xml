@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:stretchColumns="*"
+	android:padding="10dip"
+	android:orientation="vertical">
+					  	
+	<TableRow>
+		<TextView android:text="@string/lbwrbcnt" 
+			android:id="@+id/lbwrbcnt" 
+			android:paddingRight="10dip"
+			android:paddingTop="15dip"
+			android:textStyle="bold" 
+			android:gravity="right">
+		</TextView>  		
+		<EditText android:id="@+id/inwrbcnt" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:ellipsize="none" 
+			android:maxLength="15" 
+			android:width="150dip" 
+			android:singleLine="false" 
+			android:inputType="number">
+		</EditText>	
+	</TableRow>  	
+						  	
+	<TableRow>
+		<RadioGroup android:id="@+id/rgwrbtst" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content">
+			<RadioButton android:text="@string/rbwrbwrb" 
+				android:id="@+id/rbwrbwrb" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"/>
+			<RadioButton android:text="@string/rbwrbtrl" 
+				android:id="@+id/rbwrbtrl" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"/>
+		</RadioGroup>
+	</TableRow>  	
+							
+	<TableRow>
+		<Button android:text="@string/btwrbstr" 
+			android:id="@+id/btwrbstr" 
+			android:textStyle="bold"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"/>
+		<Button android:text="@string/btbtstcn" 
+			android:id="@+id/btbtstcn" 
+			android:textStyle="bold"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"/>
+	</TableRow>
+</TableLayout>

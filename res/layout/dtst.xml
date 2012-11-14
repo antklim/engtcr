@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:stretchColumns="*"
+	android:padding="10dip"
+	android:orientation="vertical">
+						
+	<TableRow android:paddingBottom="5dip">
+		<TextView android:text="@string/lbdctwrd" 
+			android:id="@+id/lbdctwrd" 
+			android:paddingRight="10dip"
+			android:paddingTop="15dip"
+			android:textStyle="bold" 
+			android:gravity="right">
+		</TextView>
+		<EditText android:id="@+id/indctwrd" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:ellipsize="none" 
+			android:maxLength="15" 
+			android:singleLine="true" 
+			android:width="150dip">
+		</EditText>
+	</TableRow>
+	<TableRow android:paddingBottom="5dip">
+		<TextView android:text="@string/lbwrdtrl" 
+			android:id="@+id/lbwrdtrl" 
+			android:paddingRight="10dip"
+			android:paddingTop="15dip"
+			android:textStyle="bold" 
+			android:gravity="right">
+		</TextView>
+		<EditText android:id="@+id/inwrdtrl"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:maxLength="100">
+		</EditText>
+	</TableRow>
+									
+	<TableRow>
+		<TextView android:text="" 
+			android:id="@+id/lbwrdnxt" 
+			android:paddingRight="10dip"
+			android:paddingTop="15dip"
+			android:textStyle="bold" 
+			android:gravity="right">
+		</TextView>
+		<Button android:text="@string/btwrdnxt" 
+			android:id="@+id/btwrdnxt" 
+			android:textStyle="bold"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"/>
+	</TableRow>
+
+	<TableRow>
+		<TextView android:text="" 
+			android:id="@+id/lbwrdcnc" 
+			android:paddingRight="10dip"
+			android:paddingTop="15dip"
+			android:textStyle="bold" 
+			android:gravity="right">
+		</TextView>
+		<Button android:text="@string/btwrdcnc" 
+			android:id="@+id/btwrdcnc" 
+			android:textStyle="bold"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"/>
+	</TableRow>
+</TableLayout>

@@ -1,0 +1,1 @@
+Application for learning words and further self-checking.

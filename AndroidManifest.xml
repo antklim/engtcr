@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="klim.android.engtcr"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".EngTcr"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    <activity android:name="EngWrb"></activity>
+	<activity android:name="EngDct"></activity>
+	<activity android:name="WrbLst"></activity>
+	<activity android:name="WrbEdt"></activity>
+	<activity android:name="WrbTst"></activity>
+	<activity android:name="WrdLst"></activity>
+	<activity android:name="WrdTst"></activity>
+	<activity android:name="WrdEdt"></activity>
+	<activity android:name="WbTest"></activity>
+	<activity android:name="WdTest"></activity>
+</application>
+<uses-sdk android:minSdkVersion="7" />
+
+</manifest> 

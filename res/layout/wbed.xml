@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+	android:stretchColumns="*"
+  	android:padding="10dip"
+  	android:orientation="vertical">
+  	
+	<TableRow android:paddingBottom="5dip">
+		<TextView android:text="@string/lbinfntv" 
+			android:id="@+id/lbinfntv" 
+			android:paddingRight="10dip"
+			android:paddingTop="15dip"
+		    android:textStyle="bold" 
+		    android:gravity="right">
+	   	</TextView>
+		<EditText android:id="@+id/ininfntv" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:ellipsize="none" 
+			android:maxLength="15" 
+			android:singleLine="true" 
+			android:width="150dip">
+		</EditText>
+	</TableRow>
+	<TableRow android:paddingBottom="5dip">
+		<TextView android:text="@string/lbsmppst" 
+			android:id="@+id/lbsmppst" 
+			android:paddingRight="10dip"
+			android:paddingTop="15dip"
+		    android:textStyle="bold" 
+		    android:gravity="right">
+      	</TextView>
+		<EditText android:id="@+id/insmppst" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:maxLength="100">
+		</EditText>
+	</TableRow>
+	<TableRow android:paddingBottom="5dip">
+		<TextView android:text="@string/lbpstprt" 
+			android:id="@+id/lbpstprt" 
+			android:paddingRight="10dip"
+			android:paddingTop="15dip"
+		    android:textStyle="bold" 
+		    android:gravity="right">
+      	</TextView>
+		<EditText android:id="@+id/inpstprt"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:maxLength="100">
+		</EditText>
+	</TableRow>
+	<TableRow android:paddingBottom="5dip">
+		<TextView android:text="@string/lbwrbtrl" 
+			android:id="@+id/lbwrbtrl" 
+			android:paddingRight="10dip"
+			android:paddingTop="15dip"
+		    android:textStyle="bold" 
+		    android:gravity="right">
+      	</TextView>
+		<EditText android:id="@+id/inwrbtrl"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:maxLength="100">
+		</EditText>
+	</TableRow>
+			
+	<TableRow>
+		<Button android:text="@string/btsavwrb" 
+			android:id="@+id/btsavwrb" 
+		    android:textStyle="bold"
+      		android:layout_span="2">
+		</Button>
+	</TableRow>
+	<TableRow>
+		<Button android:text="@string/btcnswrb" 
+			android:id="@+id/btcnswrb" 
+		    android:textStyle="bold"
+      		android:layout_span="2">
+		</Button>
+	</TableRow>	
+</TableLayout>
